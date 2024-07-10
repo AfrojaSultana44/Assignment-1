@@ -61,7 +61,7 @@ body {
 
 /* developement section styles */
 .developement-section-container {
-  width: 80%;
+  width: 1140px;
   height: auto;
   margin: 0 auto;
   border-radius: 16px;
@@ -201,4 +201,45 @@ body {
 .developement-card3-image img {
   width: 100%;
   height: auto;
+}
+
+/* inspiration section styles */
+.inspiration-section-container {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.inspiration-title-container {
+  width: 852px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.inspiration-title-container h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+
+.inspiration-title-container p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.inspiration-video-section {
+  width: 1076px;
+  height: 550px;
+  margin: 25px auto;
+}
+
+.video {
+  border-radius: 16px;
 }
