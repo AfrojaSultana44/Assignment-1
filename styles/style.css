@@ -243,3 +243,84 @@ body {
 .video {
   border-radius: 16px;
 }
+
+/* current target section styles */
+.current-target-section-container {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.current-target-title-container {
+  width: 852px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.current-target-title-container h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+
+.current-target-title-container p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.current-targets {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+
+.current-targets h5 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.current-targets p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.current-targets li {
+  list-style: none;
+}
+
+.current-targets li a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.current-target-1 {
+  width: 32%;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+
+.current-target-2 {
+  width: 32%;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.current-target-3 {
+  width: 32%;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
