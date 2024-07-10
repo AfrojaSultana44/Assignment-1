@@ -13,17 +13,18 @@ body {
 
 /* banner section styles */
 .banner-section-container {
-  max-width: 1440px;
+  width: 100%;
   height: 652px;
   background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   margin-bottom: 74px;
 }
 
 .banner-content {
-  width: 998px;
+  max-width: 1140px;
+  width: 100%;
   height: 582px;
   margin: 0 auto;
   display: flex;
@@ -31,6 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0 97px;
 }
 
 .banner-content h1 {
@@ -64,44 +66,36 @@ body {
   font-weight: 600;
 }
 
-/* developement section styles */
-.developement-section-container {
-  width: 1140px;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 16px;
-  background-color: rgba(13, 19, 33, 0.02);
+/* development section styles */
+.development-section-container {
+  width: 100%;
 }
 
-.developement-content-container {
-  width: 946px;
-  height: auto;
+.development-content-container {
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
+  padding: 80px 97px;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
 }
 
-.developement-title-container {
-  width: 852;
-  margin: 0 auto;
-}
-
-.developement-title-container h2 {
+.development-title-container h2 {
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 24px;
 }
 
-.developement-title-container p {
+.development-title-container p {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
 }
 
-.developement-card1-container {
+.development-card1-container {
   width: 100%;
   border-radius: 16px;
   background: linear-gradient(
@@ -112,9 +106,9 @@ body {
   margin-top: 48px;
 }
 
-.developement-card1-content,
-.developement-card2-content,
-.developement-card3-content {
+.development-card1-content,
+.development-card2-content,
+.development-card3-content {
   width: 850px;
   height: auto;
   margin: 48px auto;
@@ -123,27 +117,27 @@ body {
   align-items: center;
 }
 
-.developement-card1-text {
+.development-card1-text {
   width: 50%;
   text-align: left;
 }
 
-.developement-card1-image {
+.development-card1-image {
   width: 30%;
 }
 
-.developement-card1-image img {
+.development-card1-image img {
   width: 100%;
   height: auto;
 }
-.developement-content-container h3 {
+.development-content-container h3 {
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 16px;
 }
 
-.developement-content-container p {
+.development-content-container p {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -151,13 +145,13 @@ body {
   margin-bottom: 32px;
 }
 
-.developement-content-container button {
+.development-content-container button {
   padding: 12px 20px 12px 20px;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
 }
 
-.developement-card2-container {
+.development-card2-container {
   width: 100%;
   border-radius: 16px;
   background: linear-gradient(
@@ -168,22 +162,22 @@ body {
   margin-top: 32px;
 }
 
-.developement-card2-text {
+.development-card2-text {
   width: 70%;
   text-align: left;
   padding-right: 100px;
 }
 
-.developement-card2-image {
+.development-card2-image {
   width: 25%;
 }
 
-.developement-card2-image img {
+.development-card2-image img {
   width: 100%;
   height: auto;
 }
 
-.developement-card3-container {
+.development-card3-container {
   width: 100%;
   border-radius: 16px;
   background: linear-gradient(
@@ -194,33 +188,31 @@ body {
   margin-top: 32px;
 }
 
-.developement-card3-text {
+.development-card3-text {
   width: 50%;
   text-align: left;
 }
 
-.developement-card3-image {
+.development-card3-image {
   width: 25%;
 }
 
-.developement-card3-image img {
+.development-card3-image img {
   width: 100%;
   height: auto;
 }
 
 /* inspiration section styles */
 .inspiration-section-container {
-  width: 1140px;
-  height: auto;
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
   margin-top: 70px;
   margin-bottom: 140px;
 }
 
 .inspiration-title-container {
-  width: 852px;
-  height: auto;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
   padding-bottom: 48px;
 }
@@ -251,15 +243,13 @@ body {
 
 /* current target section styles */
 .current-target-section-container {
-  width: 1140px;
-  height: auto;
+  width: 100%px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .current-target-title-container {
-  width: 852px;
-  height: auto;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
   padding-bottom: 48px;
 }
