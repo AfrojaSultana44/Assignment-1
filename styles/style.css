@@ -131,14 +131,13 @@ body {
     rgba(255, 255, 255, 0) 100%
   );
   margin-top: 48px;
+  padding: 48px;
 }
 
 .development-card1-content,
 .development-card2-content,
 .development-card3-content {
-  width: 850px;
-  height: auto;
-  margin: 48px auto;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,6 +186,7 @@ body {
     rgba(255, 255, 255, 0) 100%
   );
   margin-top: 32px;
+  padding: 48px;
 }
 
 .development-card2-text {
@@ -213,6 +213,7 @@ body {
     rgba(255, 255, 255, 0) 100%
   );
   margin-top: 32px;
+  padding: 48px;
 }
 
 .development-card3-text {
@@ -241,7 +242,7 @@ body {
 .inspiration-title-container {
   width: 100%;
   text-align: center;
-  padding-bottom: 48px;
+  padding: 0px 144px 48px;
 }
 
 .inspiration-title-container h3 {
@@ -259,9 +260,12 @@ body {
 }
 
 .inspiration-video-section {
-  width: 1076px;
+  width: 100%;
   height: 550px;
   margin: 25px auto;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 20px;
 }
 
 .video {
@@ -278,7 +282,7 @@ body {
 .current-target-title-container {
   width: 100%;
   text-align: center;
-  padding-bottom: 48px;
+  padding: 0px 144px 48px;
 }
 
 .current-target-title-container h3 {
@@ -349,28 +353,23 @@ body {
 
 /* support section styles */
 .support-section-container {
-  width: 1140px;
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
   background-image: url("../assets/handshake.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 16px;
-  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
-    url(Email);
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
   margin-bottom: 80px;
+  padding: 64px 48px;
 }
 
 .support-section-title {
-  width: 1044px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
   text-align: center;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 0px 219px;
 }
 
 .support-section-title h4 {
@@ -387,18 +386,30 @@ body {
   opacity: 0.7;
   margin-bottom: 48px;
 }
-.support-section-title input {
+
+.support-section-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 180px;
+}
+
+.support-section-form input {
+  flex-basis: auto;
+  flex-grow: 1;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
   background: rgb(255, 255, 255);
   padding: 19px 20px 19px 20px;
-  width: 548px;
   color: rgba(13, 19, 33, 0.4);
   font-size: 16px;
   font-weight: 400;
 }
 
 #submit-btn {
+  flex-basis: auto;
+  flex-shrink: 0;
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
@@ -406,6 +417,7 @@ body {
   background: rgb(255, 255, 255);
   padding: 17px 20px 17px 20px;
   border: none;
+  margin-left: 16px;
 }
 
 /* footer section styles */
